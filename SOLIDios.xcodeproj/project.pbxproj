@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4E2F15A299D572500F54374 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E2F159299D572500F54374 /* AppDelegate.swift */; };
+		D4E2F15C299D572500F54374 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E2F15B299D572500F54374 /* SceneDelegate.swift */; };
+		D4E2F15E299D572500F54374 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E2F15D299D572500F54374 /* ViewController.swift */; };
+		D4E2F164299D572500F54374 /* SOLIDios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D4E2F162299D572500F54374 /* SOLIDios.xcdatamodeld */; };
+		D4E2F166299D572800F54374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4E2F165299D572800F54374 /* Assets.xcassets */; };
+		D4E2F169299D572800F54374 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4E2F167299D572800F54374 /* LaunchScreen.storyboard */; };
+		D4E2F174299D572800F54374 /* SOLIDiosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E2F173299D572800F54374 /* SOLIDiosTests.swift */; };
+		D4E2F17E299D572800F54374 /* SOLIDiosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E2F17D299D572800F54374 /* SOLIDiosUITests.swift */; };
+		D4E2F180299D572800F54374 /* SOLIDiosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E2F17F299D572800F54374 /* SOLIDiosUITestsLaunchTests.swift */; };
+		D4E2F18D299D577100F54374 /* UserInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E2F18C299D577100F54374 /* UserInput.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4E2F170299D572800F54374 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4E2F14E299D572500F54374 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4E2F155299D572500F54374;
+			remoteInfo = SOLIDios;
+		};
+		D4E2F17A299D572800F54374 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4E2F14E299D572500F54374 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4E2F155299D572500F54374;
+			remoteInfo = SOLIDios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4E2F156299D572500F54374 /* SOLIDios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOLIDios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E2F159299D572500F54374 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4E2F15B299D572500F54374 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D4E2F15D299D572500F54374 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4E2F163299D572500F54374 /* SOLIDios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SOLIDios.xcdatamodel; sourceTree = "<group>"; };
+		D4E2F165299D572800F54374 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4E2F168299D572800F54374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4E2F16A299D572800F54374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4E2F16F299D572800F54374 /* SOLIDiosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SOLIDiosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E2F173299D572800F54374 /* SOLIDiosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOLIDiosTests.swift; sourceTree = "<group>"; };
+		D4E2F179299D572800F54374 /* SOLIDiosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SOLIDiosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E2F17D299D572800F54374 /* SOLIDiosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOLIDiosUITests.swift; sourceTree = "<group>"; };
+		D4E2F17F299D572800F54374 /* SOLIDiosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOLIDiosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D4E2F18C299D577100F54374 /* UserInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInput.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4E2F153299D572500F54374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E2F16C299D572800F54374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E2F176299D572800F54374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4E2F14D299D572500F54374 = {
+			isa = PBXGroup;
+			children = (
+				D4E2F158299D572500F54374 /* SOLIDios */,
+				D4E2F172299D572800F54374 /* SOLIDiosTests */,
+				D4E2F17C299D572800F54374 /* SOLIDiosUITests */,
+				D4E2F157299D572500F54374 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4E2F157299D572500F54374 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4E2F156299D572500F54374 /* SOLIDios.app */,
+				D4E2F16F299D572800F54374 /* SOLIDiosTests.xctest */,
+				D4E2F179299D572800F54374 /* SOLIDiosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4E2F158299D572500F54374 /* SOLIDios */ = {
+			isa = PBXGroup;
+			children = (
+				D4E2F159299D572500F54374 /* AppDelegate.swift */,
+				D4E2F15B299D572500F54374 /* SceneDelegate.swift */,
+				D4E2F15D299D572500F54374 /* ViewController.swift */,
+				D4E2F18C299D577100F54374 /* UserInput.swift */,
+				D4E2F165299D572800F54374 /* Assets.xcassets */,
+				D4E2F167299D572800F54374 /* LaunchScreen.storyboard */,
+				D4E2F16A299D572800F54374 /* Info.plist */,
+				D4E2F162299D572500F54374 /* SOLIDios.xcdatamodeld */,
+			);
+			path = SOLIDios;
+			sourceTree = "<group>";
+		};
+		D4E2F172299D572800F54374 /* SOLIDiosTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4E2F173299D572800F54374 /* SOLIDiosTests.swift */,
+			);
+			path = SOLIDiosTests;
+			sourceTree = "<group>";
+		};
+		D4E2F17C299D572800F54374 /* SOLIDiosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4E2F17D299D572800F54374 /* SOLIDiosUITests.swift */,
+				D4E2F17F299D572800F54374 /* SOLIDiosUITestsLaunchTests.swift */,
+			);
+			path = SOLIDiosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4E2F155299D572500F54374 /* SOLIDios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4E2F183299D572800F54374 /* Build configuration list for PBXNativeTarget "SOLIDios" */;
+			buildPhases = (
+				D4E2F152299D572500F54374 /* Sources */,
+				D4E2F153299D572500F54374 /* Frameworks */,
+				D4E2F154299D572500F54374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SOLIDios;
+			productName = SOLIDios;
+			productReference = D4E2F156299D572500F54374 /* SOLIDios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4E2F16E299D572800F54374 /* SOLIDiosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4E2F186299D572800F54374 /* Build configuration list for PBXNativeTarget "SOLIDiosTests" */;
+			buildPhases = (
+				D4E2F16B299D572800F54374 /* Sources */,
+				D4E2F16C299D572800F54374 /* Frameworks */,
+				D4E2F16D299D572800F54374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4E2F171299D572800F54374 /* PBXTargetDependency */,
+			);
+			name = SOLIDiosTests;
+			productName = SOLIDiosTests;
+			productReference = D4E2F16F299D572800F54374 /* SOLIDiosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4E2F178299D572800F54374 /* SOLIDiosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4E2F189299D572800F54374 /* Build configuration list for PBXNativeTarget "SOLIDiosUITests" */;
+			buildPhases = (
+				D4E2F175299D572800F54374 /* Sources */,
+				D4E2F176299D572800F54374 /* Frameworks */,
+				D4E2F177299D572800F54374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4E2F17B299D572800F54374 /* PBXTargetDependency */,
+			);
+			name = SOLIDiosUITests;
+			productName = SOLIDiosUITests;
+			productReference = D4E2F179299D572800F54374 /* SOLIDiosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4E2F14E299D572500F54374 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D4E2F155299D572500F54374 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D4E2F16E299D572800F54374 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D4E2F155299D572500F54374;
+					};
+					D4E2F178299D572800F54374 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D4E2F155299D572500F54374;
+					};
+				};
+			};
+			buildConfigurationList = D4E2F151299D572500F54374 /* Build configuration list for PBXProject "SOLIDios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4E2F14D299D572500F54374;
+			productRefGroup = D4E2F157299D572500F54374 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4E2F155299D572500F54374 /* SOLIDios */,
+				D4E2F16E299D572800F54374 /* SOLIDiosTests */,
+				D4E2F178299D572800F54374 /* SOLIDiosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4E2F154299D572500F54374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E2F169299D572800F54374 /* LaunchScreen.storyboard in Resources */,
+				D4E2F166299D572800F54374 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E2F16D299D572800F54374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E2F177299D572800F54374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4E2F152299D572500F54374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E2F15E299D572500F54374 /* ViewController.swift in Sources */,
+				D4E2F18D299D577100F54374 /* UserInput.swift in Sources */,
+				D4E2F15A299D572500F54374 /* AppDelegate.swift in Sources */,
+				D4E2F15C299D572500F54374 /* SceneDelegate.swift in Sources */,
+				D4E2F164299D572500F54374 /* SOLIDios.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E2F16B299D572800F54374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E2F174299D572800F54374 /* SOLIDiosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E2F175299D572800F54374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E2F180299D572800F54374 /* SOLIDiosUITestsLaunchTests.swift in Sources */,
+				D4E2F17E299D572800F54374 /* SOLIDiosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4E2F171299D572800F54374 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4E2F155299D572500F54374 /* SOLIDios */;
+			targetProxy = D4E2F170299D572800F54374 /* PBXContainerItemProxy */;
+		};
+		D4E2F17B299D572800F54374 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4E2F155299D572500F54374 /* SOLIDios */;
+			targetProxy = D4E2F17A299D572800F54374 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4E2F167299D572800F54374 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4E2F168299D572800F54374 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4E2F181299D572800F54374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4E2F182299D572800F54374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4E2F184299D572800F54374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y8H4LWMZZ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SOLIDios/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = biAda.SOLIDios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4E2F185299D572800F54374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y8H4LWMZZ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SOLIDios/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = biAda.SOLIDios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4E2F187299D572800F54374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y8H4LWMZZ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = biAda.SOLIDiosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SOLIDios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SOLIDios";
+			};
+			name = Debug;
+		};
+		D4E2F188299D572800F54374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y8H4LWMZZ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = biAda.SOLIDiosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SOLIDios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SOLIDios";
+			};
+			name = Release;
+		};
+		D4E2F18A299D572800F54374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y8H4LWMZZ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = biAda.SOLIDiosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SOLIDios;
+			};
+			name = Debug;
+		};
+		D4E2F18B299D572800F54374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y8H4LWMZZ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = biAda.SOLIDiosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SOLIDios;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4E2F151299D572500F54374 /* Build configuration list for PBXProject "SOLIDios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E2F181299D572800F54374 /* Debug */,
+				D4E2F182299D572800F54374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4E2F183299D572800F54374 /* Build configuration list for PBXNativeTarget "SOLIDios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E2F184299D572800F54374 /* Debug */,
+				D4E2F185299D572800F54374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4E2F186299D572800F54374 /* Build configuration list for PBXNativeTarget "SOLIDiosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E2F187299D572800F54374 /* Debug */,
+				D4E2F188299D572800F54374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4E2F189299D572800F54374 /* Build configuration list for PBXNativeTarget "SOLIDiosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E2F18A299D572800F54374 /* Debug */,
+				D4E2F18B299D572800F54374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D4E2F162299D572500F54374 /* SOLIDios.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D4E2F163299D572500F54374 /* SOLIDios.xcdatamodel */,
+			);
+			currentVersion = D4E2F163299D572500F54374 /* SOLIDios.xcdatamodel */;
+			path = SOLIDios.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D4E2F14E299D572500F54374 /* Project object */;
+}
