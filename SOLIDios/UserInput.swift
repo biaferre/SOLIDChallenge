@@ -20,19 +20,26 @@ struct UserInput
 
 struct AuthResponse: Codable
 {
-    
-    var accessToken: String?
-    var refreshToken: String?
-    var expirationDate: String?
-    var username: String?
-
+    var data: APIData?
 }
 
-struct User
+struct UserResponse: Codable
+{
+    var data: [User]
+}
+
+
+struct APIData: Codable {
+    let user: User
+    let token: String
+}
+
+struct User: Codable
 {
     var id: String?
-    var firstName: String?
-    var lastName: String?
+    var email: String?
+    var username: String?
+    var name: String?
 
 }
 
@@ -43,41 +50,73 @@ protocol AuthRequester
     
 }
 
-protocol UserRequest
+protocol UserRequester
 {
-    func getAllUsers() -> [User]
+    func getAllUsers() async -> UserResponse?
 }
 
-class AuthManager: AuthRequester
+class AuthManager: AuthRequester, UserRequester
 {
     // singleton exemplo
+    
     static let shared = AuthManager()
+    let apiCaller = APICaller()
     
     private init() {} // garante q so pode instanciar dentro de si mesma
     
+    func getAllUsers() async -> UserResponse? {
+    
+        
+        let parameters = APIQueryParameters(path: "/login", method: "GET")
+        let response = await apiCaller.makeRequest(with: parameters, expecting: UserResponse.self)
+        return response
+    }
+    
     func requestAuth(userInput: UserInput) async -> AuthResponse? {
-        guard var urlComponents = URLComponents(string: "https://6cf4-150-161-70-2.ngrok.io/") else {return nil}
-        urlComponents.path = "/login"
-        urlComponents.queryItems = [
-            URLQueryItem(name: "username", value: userInput.username),
-            URLQueryItem(name: "password", value: userInput.password)
-        ]
+        
+        let userInfo = [
+                        URLQueryItem(name: "email", value: userInput.username),
+                        URLQueryItem(name: "password", value: userInput.password)
+                    ]
+        
+        let parameters = APIQueryParameters(path: "/auth", queryItems: userInfo, method: "POST")
+        let response = await apiCaller.makeRequest(with: parameters, expecting: AuthResponse.self)
+        return response
+    }
+    
+}
+
+struct APIQueryParameters {
+    let path: String
+    var queryItems: [URLQueryItem] = []
+    let method: String
+}
+
+class APICaller
+{
+    func makeRequest<T: Codable>(with parameters: APIQueryParameters, expecting: T.Type) async -> T? // aplicacao de generics
+    // reduzir numero de argumentos facilita os testes :)
+    {
+        guard var urlComponents = URLComponents(string: "http://localhost:3001") else {return nil}
+        urlComponents.path = parameters.path
+        urlComponents.queryItems = parameters.queryItems
+        
         guard let url = urlComponents.url else { return nil }
         
         var request = URLRequest(url: url)
-        request.httpMethod = "POST"
+        request.httpMethod = parameters.method
         request.httpBody = urlComponents.query?.data(using: .utf8)
-        
+
         let session = URLSession.shared
-        
+
         do {
             let (data, _) = try await session.data(for: request)
             
             let decoder = JSONDecoder()
             decoder.keyDecodingStrategy = .convertFromSnakeCase
             
-            let authResponseDecoded = try decoder.decode(AuthResponse.self, from: data)
-            return authResponseDecoded
+            let requestResponse = try decoder.decode(expecting, from: data)
+            return requestResponse
             
         } catch {
             print("Erro \(error)")
@@ -85,9 +124,4 @@ class AuthManager: AuthRequester
         
         return nil
     }
-    
-}
-
-class APICaller {
-    
 }
