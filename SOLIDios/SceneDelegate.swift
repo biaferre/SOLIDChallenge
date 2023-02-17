@@ -24,7 +24,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let userInput = UserInput(username: "bibia@gmail.com", password: "12345")
         Task {
-            var user = await AuthManager.shared.getAllUsers()
+            var user = await UserController.shared.getAllUsers()
             print(user)
         }
         window.makeKeyAndVisible()
